@@ -1,9 +1,9 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-df0_fd = pd.read_csv("/home/stylianos/eclipse-workspace/thesis/final_datasets/cdr1_vs_cdr0/cdr0_fd.csv")
-df1_fd = pd.read_csv("/home/stylianos/eclipse-workspace/thesis/final_datasets/cdr1_vs_cdr0/cdr1_fd.csv")
-df0_vol = pd.read_csv("/home/stylianos/eclipse-workspace/thesis/final_datasets/cdr1_vs_cdr0/cdr0_volume.csv")
-df1_vol = pd.read_csv("/home/stylianos/eclipse-workspace/thesis/final_datasets/cdr1_vs_cdr0/cdr1_volume.csv")
+df0_fd = pd.read_csv("cdr1_vs_cdr0/cdr0_fd.csv")
+df1_fd = pd.read_csv("cdr1_vs_cdr0/cdr1_fd.csv")
+df0_vol = pd.read_csv("/cdr1_vs_cdr0/cdr0_volume.csv")
+df1_vol = pd.read_csv("/cdr1_vs_cdr0/cdr1_volume.csv")
 
 
 my_dict = {'0': df0_fd['Right_Putamen'],'1 or greater': df1_fd['Right_Putamen']}
